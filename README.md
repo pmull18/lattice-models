@@ -18,6 +18,6 @@
         - `left`: the boundary conditions assigned to the left side of the lattice model
         - `right`: the boundary conditions assigned to the right side of the lattice model
         - `wts`: Boltzmann weights associated with a particular lattice; stored as a dict of (vertex: weight) pairs.
-        - `model`: a numpy array of instances of the `Vertex` class
+        - `model`: a Pandas DataFrame of instances of the `Vertex` class
     - Methods:
         - `calculate_partition`: calculates and outputs the partition function of the lattice
